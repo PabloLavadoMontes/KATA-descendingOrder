@@ -1,12 +1,12 @@
 export {descendingOrder, numberToArray, findBiggestNumber, sumElementsFromArray}
-descendingOrder(12345);
+
 /**
  * Modify the digits of a number to create a number as high as possible;
  * @param {number} n 
  * @returns {number}
  */
 function descendingOrder (n: number): number {
-    let arrayInOrder: any[] = [];
+    let arrayInOrder: number[] = [];
     let array = numberToArray(n);
     let arrayCopied: number[] = array.slice();
     let biggestNumber: number = 0;
